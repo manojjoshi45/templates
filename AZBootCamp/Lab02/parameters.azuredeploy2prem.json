@@ -1,0 +1,32 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "location": {
+      "value":  "West US"
+    },
+    "newStorageAccountName": {
+      "value": "***Unique Storage Account Name***"
+    },
+    "adminUsername": {
+      "value": "abc_admin"
+    },
+    "adminPassword": {
+      "value": "Pa$$w0rd!"
+    },
+    "dnsNameForPublicIP": {
+      "value": "***Unique VM Name***"
+    },
+    "storageaccounttype":{
+      "value":"Premium_LRS"
+    },
+    "vmsize":{
+      "value":"Standard_DS1"
+    },
+    "storageuri":{
+      "value":"***Blob endpoint of existing basic storage URI***"
+    }
+    
+  }
+}
+
